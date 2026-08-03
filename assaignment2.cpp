@@ -28,10 +28,17 @@ class student {
 };
 
 int main(){
-    student s;
+    student s, s1, s2;
     s.inputDetails();
-    s.rollNo = 50;
     s.displayDetails();
+    return 0;
+
+     s1.inputDetails();
+    s1.displayDetails();
+    return 0;
+
+     s2.inputDetails();
+    s2.displayDetails();
     return 0;
 
 }
