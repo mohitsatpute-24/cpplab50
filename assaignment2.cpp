@@ -2,13 +2,13 @@
 #include<string>
 using namespace std;
 class student {
-    private:
+    public:
     string name;
     int rollNo;
     float marks;
 
 
-    public:
+    //public:
     void inputDetails(){
         cout<<"enter student name:";
         getline(cin>>ws,name);
@@ -30,6 +30,7 @@ class student {
 int main(){
     student s;
     s.inputDetails();
+    s.rollNo = 50;
     s.displayDetails();
     return 0;
 
