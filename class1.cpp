@@ -1,4 +1,4 @@
-#
+#include<stdio.h>
 using 
 class item
 {
